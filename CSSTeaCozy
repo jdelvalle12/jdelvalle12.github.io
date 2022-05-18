@@ -1,0 +1,178 @@
+html{
+    background-color: black;
+}
+
+
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+  }
+  
+  /* navbar/logo */
+  
+  nav {
+      border-bottom: 1px solid seashell;
+      height: 69px;
+      position: sticky;
+      top: 0;
+      background-color: black;
+      opacity: 75%
+  } 
+  
+  .nav-container {
+      justify-content: space-between;
+      align-items: center;
+  }
+  
+  #nav-link-container {
+      display: flex;
+      justify-content: space-between;
+      align-content: center;
+      margin-top: 10px;
+  }
+  
+  #logo {
+      height: 50px;
+      width: auto;
+      margin-left: 10px;
+      margin-top: 10px;
+  }
+  
+  .nav-link {
+      margin-right: 15px;
+      color: seashell;
+      padding: 5px;
+      
+  }
+  
+  .nav-link:hover {
+      color: white;
+      text-decoration: underline overline;
+  }
+  /* Background image */
+  
+  .background-image {
+    margin: 0 20px;
+      height: 700px;
+      text-align: center;
+      border: 1px solid red;
+      background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg);
+      background-size: cover;
+      justify-content: center;
+      flex-flow: row wrap;
+  }
+  
+  .mission {
+    background-color: black;
+      color: #b3b9c4;
+  }
+  
+  
+  h2 {
+      display: block;
+      font-size: 1.5em;
+      margin-block-start: 0.83em;
+      margin-block-end: 0.83em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      font-weight: bold;
+      text-align: center;
+      width: 1200px;
+      flex-direction: row;
+      display: wrap;
+  }
+  
+  h4 {
+      display: block;
+      margin-block-start: 1.33em;
+      margin-block-end: 1.33em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      font-weight: bold;
+      text-align: center;
+      width: 1200px;
+      flex-direction: row;
+      display: wrap;
+  }
+  
+  /*Tea of the Month*/
+  
+  .tea-of-month {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 50px 0;
+      text-align: center;
+  }
+  
+  .month-text {
+      max-width: 1000px;
+      text-align: center;
+      margin-bottom: 10px;
+      }
+  
+  .container-item-month {
+    display: inline-flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-berryblitz.jpg");
+  }
+  
+  
+  h2.tea-of-month {
+      display: block;
+      font-size: 1.5em;
+      margin-block-start: 0.83em;
+      margin-block-end: 0.83em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      font-weight: bold;
+      text-decoration: underline;
+  }
+  
+  h4 {
+      display: block;
+      margin-block-start: 1.33em;
+      margin-block-end: 1.33em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      font-weight: bold;
+      justify-content: center;
+  }
+  
+  .item-month {
+      flex-direction: column;
+      text-align: center;
+      text-decoration: underline;
+  }
+  
+  .item-month img {
+      display: flex;
+      height: 200px;
+      width: 300px;
+      margin: auto;
+      justify-content: center;
+      border: 1px solid seashell;
+  }
+  
+  /* Location */
+  
+   .location-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 1px solid seashell;
+    }
+  
+  /*Footer*/
+  
+  footer {
+    text-align: center;
+    justify-content: center;
+  }
